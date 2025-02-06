@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.tmp
+.idea
+.env
+coverage/
+.npm
+.vscode
+.nyc_output
+k6-results
+.cursor/
