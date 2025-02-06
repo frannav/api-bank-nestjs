@@ -23,7 +23,6 @@ jobs:
 
       - name: Install dependencies 📥
         run: |
-          # Bellow pnpm install is a workaround for https://github.com/swc-project/swc/issues/5616#issuecomment-1651214641
           pnpm install --frozen-lockfile
           pnpm add --save-optional \
             "@swc/core-linux-x64-gnu@1" \
